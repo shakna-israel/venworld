@@ -26,6 +26,14 @@ Or download the repository, and run `love .` in the repository root.
 
 ---
 
+# Configuration
+
+If you want to modify the controls, or make the game harder for yourself, then you can modify the `config.lua` file.
+
+(If you have a `*.love` file, rename it to `*.zip` and extract it to modify the file, before rezipping it and renaming it back).
+
+---
+
 # License
 
 See the [LICENSE.md](LICENSE.md) file.
