@@ -3,6 +3,9 @@ return {
 	down = 's',
 	left = 'a',
 	right = 'd',
+	quit = 'q',
+
+	-- Lower cap of 20
 	max_npcs = 50,
 
 	-- For "hard", try 100

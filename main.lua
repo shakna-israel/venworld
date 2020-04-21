@@ -49,6 +49,8 @@ function love.load()
   if config.max_npcs < 20 then
   	config.max_npcs = 20
   end
+
+  love.window.setTitle("venworld")
 end
 
 function love.draw()
@@ -104,6 +106,10 @@ function not_in_table(array, value)
 end
 
 function love.update(dt)
+	if love.keyboard.isDown(config.quit) then
+		love.event.quit(0)
+	end
+
 	if score < -10 then
 		return
 	end
